@@ -2,7 +2,7 @@ import express from "express";
 
 const app = express(); // Create an instance of express
 
-app.get("/", (req, res) => {
+app.get("/test", (req, res) => {
     res.send("Hello, World!"); // Respond with a simple message
 });
 
